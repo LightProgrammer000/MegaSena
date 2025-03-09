@@ -1,5 +1,5 @@
 # Bibliotecas
-from colorama import Fore   # Colorir a saída no terminal
+from colorama import Fore
 
 # Função para montar a cartela
 def montagem_cartela():

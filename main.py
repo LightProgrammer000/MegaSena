@@ -7,7 +7,7 @@ from sorteio_mega_sena import sorteio_mega_sena
 def menu():
 
     try:
-        print(f"{Fore.LIGHTYELLOW_EX}{'=-=' * 10} MENU (MegaSena) {'=-=' * 10} {Fore.RESET}")
+        print(f"{Fore.LIGHTYELLOW_EX}{'=-=' * 10} 💰 MEGA SENA 💰 {'=-=' * 10} {Fore.RESET}")
         print(f"{Fore.LIGHTMAGENTA_EX}# [1] Sorteio de 1 vez {Fore.RESET}")
         print(f"{Fore.CYAN}# [2] Jogar 1000 vezes {Fore.RESET}")
         opc = int(input("# Opc.: "))
@@ -16,7 +16,7 @@ def menu():
             sorteio_mega_sena(montagem_cartela(), 1)
 
         elif opc == 2:
-            sorteio_mega_sena(montagem_cartela(), 1000)
+            sorteio_mega_sena(montagem_cartela(), 10000)
 
         else:
             print(f"{Fore.RED}# Opção inválida!{Fore.RESET}")
